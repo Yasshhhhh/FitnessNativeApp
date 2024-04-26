@@ -1,0 +1,34 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "^6.5.20",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/stack": "^6.3.29",
+    "clchart": "^0.1.0",
+    "expo": "~50.0.14",
+    "expo-status-bar": "~1.11.1",
+    "moment": "^2.30.1",
+    "native-base": "^3.4.28",
+    "react": "18.2.0",
+    "react-native": "0.73.6",
+    "react-native-calendars": "^1.1304.1",
+    "react-native-chart-kit": "^6.12.0",
+    "react-native-charts-wrapper": "^0.6.0",
+    "react-native-dropdown-select-list": "^2.0.5",
+    "react-native-responsive-linechart": "^5.7.1",
+    "react-native-select-dropdown": "^4.0.1",
+    "react-native-svg": "14.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
