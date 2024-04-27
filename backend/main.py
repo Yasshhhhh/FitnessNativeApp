@@ -3,7 +3,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from pymongo import MongoClient
+from typing import List, Optional
 import logging
+from datetime import datetime
 from bson import ObjectId  
 
 app = FastAPI()
@@ -29,6 +31,24 @@ if client is not None:
 else:
     print("Not Connected")    
 
+
+class Set(BaseModel):
+    weight: float
+    reps: int
+
+class Workout(BaseModel):
+    date: datetime
+    sets: List[Set]
+
+class Exercise(BaseModel):
+    name: str
+    workouts: List[Workout]
+
+class User(BaseModel):
+    name: str
+    email: str
+    password: str
+    exercises: Optional[List[Exercise]] = None
 
 class Login(BaseModel):
     email: str
