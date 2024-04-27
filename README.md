@@ -1,4 +1,4 @@
-![WhatsApp Image 2024-04-28 at 00 40 15_8f58708a](https://github.com/Yasshhhhh/FitnessNativeApp/assets/91091885/5422fb94-a5d6-447c-a92e-a595b37262d2)Welcome to FitnessX App, your comprehensive fitness hub application developed using FastAPI and React Native. 
+Welcome to FitnessX App, your comprehensive fitness hub application developed using FastAPI and React Native. 
 
 This app allows users to explore a vast Airtable API containing data of exercises along with their animations, categorized by equipment and muscle groups.
 
