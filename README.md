@@ -19,27 +19,30 @@ FastAPI: Utilized FastAPI for the backend to handle data processing and communic
 React Native: Developed the frontend using React Native for seamless cross-platform compatibility.
 
 MongoDb:Used a NoSQl Database to represent complex user data comprising of multiple exercises,workouts and sets for each user.
+
 Object: User
-    - Properties:
+
         - name: String
         - email: String
         - password: String
         - exercises: Array of Exercise Objects
 
 Object: Exercise
-    - Properties:
+
         - name: String
         - workouts: Array of Workout Objects
 
 Object: Workout
-    - Properties:
+
         - date: Date
         - sets: Array of Set Objects
 
 Object: Set
-    - Properties:
+
         - weight: Number
         - reps: Number
+
+
 
 
 
