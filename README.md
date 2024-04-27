@@ -18,6 +18,8 @@ FastAPI: Utilized FastAPI for the backend to handle data processing and communic
 
 React Native: Developed the frontend using React Native for seamless cross-platform compatibility.
 
+MongoDb:Used a NoSQl Database to represent complex user data comprising of multiple exercises,workouts and sets for each user.
+
 
 ![IMG-20240427-WA0006](https://github.com/Yasshhhhh/FitnessNativeApp/assets/91091885/a03ded51-f2b7-46aa-91e1-05742cf1f311)
 ![IMG-20240427-WA0007](https://github.com/Yasshhhhh/FitnessNativeApp/assets/91091885/636966d2-f5bc-42b0-80ae-bb7d153e40fd)
