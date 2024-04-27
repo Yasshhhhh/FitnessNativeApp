@@ -77,7 +77,6 @@ const HomeScreen = ({ navigation, route }) => {
             {filteredData.map((exercise, index) => (
               <View key={index} style={styles.exerciseItem}>
                 <Text style={styles.exerciseName}>{exercise.fields.Exercise}</Text>
-                <Text style={styles.exerciseNotes}>Major Muscle: {exercise.fields['Major Muscle']}</Text>
                 <Text style={styles.exerciseNotes}>Notes: {exercise.fields.Notes}</Text>
                 <View style={styles.equipmentContainer}>
                   {exercise.fields.Equipment.map((equipment, equipmentIndex) => (
@@ -120,7 +119,7 @@ const styles = StyleSheet.create({
   titleText: {
     fontSize: 30,
     fontWeight: 'bold',
-    color: '#C8E6CB',
+    color: '#39FF14',
   },
   profileImage: {
     width: 100,
@@ -152,10 +151,10 @@ const styles = StyleSheet.create({
   exerciseName: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#C8E6CB',
+    color: '#39FF14',
   },
   exerciseNotes: {
-    color: '#C8E6CB',
+    color: '#39FF14',
   },
   equipmentContainer: {
     flexDirection: 'row',
@@ -171,7 +170,7 @@ const styles = StyleSheet.create({
   },
   muscleText:
   {
-    backgroundColor: 'purple',
+    backgroundColor: '#7F00FF',
     color: '#ffffff',
     padding: 5,
     margin: 2,

@@ -119,7 +119,7 @@ const styles = StyleSheet.create({
   titleText: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#C8E6CB',
+    color: '#39FF14',
     paddingTop: 15,
   },
   searchInput: {

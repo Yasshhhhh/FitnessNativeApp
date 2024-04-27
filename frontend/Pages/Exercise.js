@@ -25,9 +25,9 @@ export default function Exercises({ route }) {
             save="name"
             search={false}
             selectBarStyle={styles.selectBar}
-            inputStyles={{ color: '#C8E6CB' }}
+            inputStyles={{ color: '#39FF14' }}
             boxStyles={{ backgroundColor: '#1C1C1C' }}
-            dropdownTextStyles={{ color: '#C8E6CB' }}
+            dropdownTextStyles={{ color: '#39FF14' }}
           />
         </View>
         {selectedExercise && (
@@ -91,8 +91,8 @@ const IntensityIndexChart = ({ exercise, workouts }) => {
         backgroundGradientFrom: '#1C1C1C',
         backgroundGradientTo: '#1C1C1C',
         decimalPlaces: 0,
-        color: (opacity = 1) => `rgba(200, 230, 203, ${opacity})`,
-        labelColor: (opacity = 1) => `rgba(200, 230, 203, ${opacity})`,
+        color: (opacity = 1) => `#39FF14`,
+        labelColor: (opacity = 1) => `#39FF14`,
         style: { borderRadius: 16 },
         propsForDots: { r: "6", strokeWidth: "2", stroke: "#ffa726" }
       }}
@@ -140,11 +140,11 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
   dateText: {
-    color: '#C8E6CB',
+    color: '#39FF14',
     marginBottom: 5,
   },
   setText: {
-    color: '#C8E6CB',
+    color: '#39FF14',
     marginBottom: 5,
   },
   message: {
