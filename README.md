@@ -1,4 +1,4 @@
-Welcome to Gym App, your comprehensive fitness hub application developed using FastAPI and React Native. 
+Welcome to FitnessX App, your comprehensive fitness hub application developed using FastAPI and React Native. 
 
 This app allows users to explore a vast Airtable API containing data of exercises along with their animations, categorized by equipment and muscle groups.
 
