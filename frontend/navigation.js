@@ -1,7 +1,7 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { Ionicons } from '@expo/vector-icons'; // Import Ionicons for custom icons
+import { Ionicons } from '@expo/vector-icons';
 import HomeScreen from './Pages/HomeScreen';
 import Exercises from './Pages/Exercise';
 import React from 'react';
@@ -21,8 +21,8 @@ function TabNavigator({ navigation, route }) {
         tabBarStyle: {
           backgroundColor: '#1C1C1C',
         },
-        tabBarActiveTintColor: '#39FF14', // Change color of active tab icon
-        tabBarInactiveTintColor: '#ffffff', // Change color of inactive tab icon
+        tabBarActiveTintColor: '#39FF14', 
+        tabBarInactiveTintColor: '#ffffff', 
       }}>
       <Tab.Screen
         name="Home"
@@ -30,7 +30,7 @@ function TabNavigator({ navigation, route }) {
         options={{
           headerShown: false,
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="home-outline" size={size} color={color} /> // Use Ionicons for custom icons
+            <Ionicons name="home-outline" size={size} color={color} />
           ),
         }}
         initialParams={currentUser}
@@ -41,7 +41,7 @@ function TabNavigator({ navigation, route }) {
         options={{
           headerShown: false,
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="barbell-outline" size={size} color={color} /> // Use Ionicons for custom icons
+            <Ionicons name="barbell-outline" size={size} color={color} /> 
           ),
         }}
         initialParams={currentUser}
@@ -52,7 +52,7 @@ function TabNavigator({ navigation, route }) {
         options={{
           headerShown: false,
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="clipboard-outline" size={size} color={color} /> // Use Ionicons for custom icons
+            <Ionicons name="clipboard-outline" size={size} color={color} /> 
           ),
         }}
         initialParams={currentUser}
