@@ -43,17 +43,19 @@ Object: Set
         - reps: Number
 
 
+![IMG-20240427-WA0006_48](https://github.com/Yasshhhhh/FitnessNativeApp/assets/91091885/3bde4602-a9a5-49e5-bf09-ea46cb40693a)
+
+
+![IMG-20240427-WA0007_48](https://github.com/Yasshhhhh/FitnessNativeApp/assets/91091885/892aee00-8687-448c-9eb0-9fa2952ab3a0)
+
+
+![IMG-20240427-WA0005_48](https://github.com/Yasshhhhh/FitnessNativeApp/assets/91091885/e1d806e8-3396-4a51-9bfe-488e98060939)
+
+
+https://github.com/Yasshhhhh/FitnessNativeApp/assets/91091885/7eafbb45-6687-4778-8c71-f51c52ae4f1b
 
 
 
-![IMG-20240427-WA0006](https://github.com/Yasshhhhh/FitnessNativeApp/assets/91091885/a03ded51-f2b7-46aa-91e1-05742cf1f311)
-![IMG-20240427-WA0007](https://github.com/Yasshhhhh/FitnessNativeApp/assets/91091885/636966d2-f5bc-42b0-80ae-bb7d153e40fd)
-![IMG-20240427-WA0005](https://github.com/Yasshhhhh/FitnessNativeApp/assets/91091885/48e940d6-b4f1-4e70-b787-c519ef75a817)
-
-![WhatsApp Image 2024-04-28 at 00 40 15_92e3ee47](https://github.com/Yasshhhhh/FitnessNativeApp/assets/91091885/fbc20249-2f37-4864-a612-6bbf29ae1508)
-
-
-https://github.com/Yasshhhhh/FitnessNativeApp/assets/91091885/c799f6ee-b2e8-4aeb-b032-d698c8f76a0d
 
 
 
